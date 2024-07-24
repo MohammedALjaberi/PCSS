@@ -535,8 +535,122 @@
   color: #8f9296;
 }
 
-/* ****************************** end features section ************************************** */
+/* ****************************** end team section ***************************************/
 
 /* ************************** */
-/* ********* start team section *** */
+/* ********* start contant section *** */
 /* ************************** */
+
+.contact-tittle {
+  text-align: center;
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 10px;
+  font-family: "Arvo", serif;
+}
+.section-tittle:hover .underline {
+  opacity: 0; /* Hide the underline on hover */
+  transition: 0.3s ease-in;
+}
+
+.contact-container {
+  /* text-align: center; */
+  padding: 60px 0;
+  width: 100%;
+  max-width: 1140px;
+  margin: auto;
+}
+
+/* Contact Us Section */
+.contact-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  font-family: "Arvo", serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -60px;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px none #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #f63854;
+  border-style: none;
+  color: #fff;
+  border: 1px none;
+}
+.submit-btn-container {
+  display: flex;
+  margin-top: 10px;
+  gap: 20px;
+}
+.submit-btn:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #f63854;
+  border: 1px solid;
+}
+.map-container {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  height: 300px;
+  margin: 20px;
+}
+
+.underline {
+  margin-top: -10px;
+}
+
+.inp:focus {
+  outline: none;
+  border: 1px solid #f63854;
+  /* box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5); */
+}
+
+.error-message {
+  color: rgb(254, 254, 254);
+  font-size: 12px;
+}
+
+.inp:invalid .error-message {
+  color: rgb(218, 0, 0);
+  font-size: 12px;
+  display: block;
+}
